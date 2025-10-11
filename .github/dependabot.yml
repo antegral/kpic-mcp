@@ -1,0 +1,30 @@
+version: 2
+updates:
+  # GitHub Actions 의존성 업데이트
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+
+  # npm 의존성 업데이트
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "npm"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    ignore:
+      # 메이저 버전 업데이트는 수동으로 처리
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+

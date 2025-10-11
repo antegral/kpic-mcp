@@ -1,5 +1,8 @@
 # KPIC MCP Server
 
+[![CI](https://github.com/antegral/kpic-mcp/workflows/CI/badge.svg)](https://github.com/antegral/agent-for-agent/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/antegral/kpic-mcp/workflows/CodeQL/badge.svg)](https://github.com/antegral/agent-for-agent/actions/workflows/codeql.yml)
+
 약학정보원(Korea Pharmaceutical Information Center) API를 위한 Model Context Protocol (MCP) 서버입니다.
 
 ## 기능
