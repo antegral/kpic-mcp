@@ -1,6 +1,6 @@
 {
     "name": "kpic-mcp-server",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "MCP Server for Korea Pharmaceutical Information Center (KPIC) API",
     "main": "dist/index.js",
     "type": "module",
