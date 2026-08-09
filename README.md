@@ -1,7 +1,9 @@
+
+
 # KPIC MCP Server
 
-[![CI](https://github.com/antegral/kpic-mcp/workflows/CI/badge.svg)](https://github.com/antegral/agent-for-agent/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/antegral/kpic-mcp/workflows/CodeQL/badge.svg)](https://github.com/antegral/agent-for-agent/actions/workflows/codeql.yml)
+[![CI](https://github.com/antegral/kpic-mcp/workflows/CI/badge.svg)](https://github.com/antegral/kpic-mcp/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/antegral/kpic-mcp/workflows/CodeQL/badge.svg)](https://github.com/antegral/kpic-mcp/actions/workflows/codeql.yml)
 
 약학정보원(Korea Pharmaceutical Information Center) API를 위한 Model Context Protocol (MCP) 서버입니다.
 
@@ -126,4 +128,3 @@ MIT
 
 이 서버는 [약학정보원](https://www.health.kr)의 공개 API를 사용합니다. 
 API 사용 시 해당 사이트의 이용 약관을 준수해야 합니다.
-
